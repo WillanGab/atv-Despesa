@@ -1,0 +1,162 @@
+:root {
+
+/* Primary */
+
+--soft-red: hsl(10, 79%, 65%);
+--cyan: hsl(186, 34%, 60%);
+
+/* Neutral */
+
+--dark-brown: hsl(25, 47%, 15%);
+--medium-brown: hsl(28, 10%, 53%);
+--cream: hsl(27, 66%, 92%);
+--very-pale-orange: hsl(33, 100%, 98%);
+}
+
+html, body {
+    background-color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo {
+    background-color: var(--soft-red);
+    display: flex;
+    color: var(--very-pale-orange);
+    border-radius: 10px;
+    gap: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.titulo span{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section {
+    
+    background-color: var(--very-pale-orange);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section p {
+    color: var(--medium-brown);
+}
+
+section h2 {
+    color: var(--dark-brown);
+}
+
+.grafico {
+    display: flex;
+    transform: scale(1, -1);
+    gap: 17px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cln1{
+    width: 45px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+}
+
+.cln2{
+    width: 45px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+    
+}
+
+.grafico div:hover {
+    opacity: 50%;
+}
+
+.cln3{
+    width: 45px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: var(--cyan); 
+}
+
+.cln4{
+    width: 45px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+}
+
+.cln5{
+    width: 45px;
+    height: 60px; 
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+}
+
+.cln6{
+    width: 45px;
+    height: 90px; 
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+}
+
+.cln7{
+    width: 45px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: var(--soft-red); 
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+hr {
+    border: 1px solid var(--cream);
+    margin: 0 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    text-align: end; 
+}
+
+.resultado span {
+    color: var(--dark-brown);
+    font-weight: 700;
+}
+
+.resultado h2 {
+    font-size: 36px;
+}
